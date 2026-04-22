@@ -6,7 +6,6 @@ A professional backend API for a vehicle rental management system built with Nod
 
 **Live Deployment:** [Your deployment URL here]
 
-**GitHub Repository:** [Your repository URL here]
 
 ## ✨ Features
 
