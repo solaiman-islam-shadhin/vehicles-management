@@ -369,16 +369,26 @@ npm start
 ### Deployment Recommendations
 
 **Backend Hosting:**
+- **Vercel** (Recommended - See [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md))
 - Railway
 - Render
 - Heroku
 - AWS EC2
 
 **Database Hosting:**
+- **Neon** (Best for Vercel - Free tier)
+- Supabase (Free tier)
 - Railway PostgreSQL
-- Supabase
 - AWS RDS
 - ElephantSQL
+
+**Quick Vercel Deployment:**
+1. Push code to GitHub
+2. Import project in Vercel dashboard
+3. Add environment variables (DATABASE_URL, JWT_SECRET)
+4. Deploy!
+
+See detailed guide: [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md)
 
 **Important:** Configure all environment variables in your deployment platform.
 
