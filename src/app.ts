@@ -8,9 +8,9 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/auth', authRoutes);
-app.use('/users', usersRoutes);
-app.use('/vehicles', vehiclesRoutes);
-app.use('/bookings', bookingsRoutes);
+app.use('/api/v1/auth', authRoutes);
+app.use('/api/v1/users', usersRoutes);
+app.use('/api/v1/vehicles', vehiclesRoutes);
+app.use('/api/v1/bookings', bookingsRoutes);
 
 export default app;
